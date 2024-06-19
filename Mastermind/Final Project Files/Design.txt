@@ -1,0 +1,30 @@
+CS 5001
+Isabel Cuddihy
+12-08-2023
+Design Description
+
+Process:
+I found this project quite challenging. I had an idea of how I wanted to structure the 
+game and spent a number of days coding everything out, only to realize I couldn't get 
+turtle to perform an action that I based the whole thing on. Thankfully, I figured out a 
+different solution and was able to code out the rest. I think creating a Game class was 
+particularly helpful because I was able to update and pass around values without needing 
+global variables. I did end up using a Constants file because there were a variety of 
+numbers that needed to be exact and I didn't want to have a bunch of magic numbers in my 
+code.
+Mostly, I'm just so relieved the game works! 
+
+Refactoring:
+I'd like to shrink some of my methods. In particular the "clicker" method seems long. I do
+tend to have specific variable names, so sometimes it makes my functions look longer than 
+they really are, but I feel like there must be a simpler way. Also, I'd love to add a 
+"Start a New Game" feature, so a player doesn't exit out of the game each time.
+
+Testing:
+For my testing file, since many of my functions automatically update the turtle screen and
+don't have any output, I was only able to test the secret vs player guess function. I 
+actually added the inputs and output in my mastermind_game.py file specifically to be able
+to run tests with the function. I also decided to have 4 tests to show that the function
+worked both of mixed result responses, and for entirely correct responses.
+I did include the init/constructor test, just to make sure the info from creating a new 
+instance of the Game class, correctly placed everything in the correct attribute. 

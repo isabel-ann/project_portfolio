@@ -1,0 +1,4 @@
+Type of Error Player Force Quit Game : TimeStamp:                               2023-12-08 18:31:35.988684 : Player has quit the game before finishing, reason unknown 
+Type of Error Player Force Quit Game : TimeStamp:                               2023-12-08 18:34:37.095866 : Player has quit the game before finishing, reason unknown 
+Type of Error FileNotFoundError : TimeStamp:                               2023-12-08 18:49:01.389369 : Leaderboard file was not found, a                    new file has been created 
+Type of Error FileNotFoundError : TimeStamp:                               2024-01-27 15:57:11.359165 : Leaderboard file was not found, a                    new file has been created 
